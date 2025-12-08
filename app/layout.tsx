@@ -29,20 +29,25 @@ export default function RootLayout({
         className="antialiased relative"
         style={{ fontFamily: "'Inter', sans-serif" }}
       >
+        {/* BACKGROUND IMAGE — DESKTOP + MOBILE */}
+        <div
+          className="
+            fixed top-0 left-0 w-full h-full bg-cover bg-center z-[-2]
+            hidden lg:block
+          "
+          style={{ backgroundImage: "url('/desktop.png')" }}
+        />
 
-        {/* VIDEO BACKGROUND */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="fixed top-0 left-0 w-full h-full object-cover z-[-2]"
-        >
-          <source src="/ausflag-bg.mp4" type="video/mp4" />
-        </video>
+        <div
+          className="
+            fixed top-0 left-0 w-full h-full bg-cover bg-center z-[-2]
+            lg:hidden
+          "
+          style={{ backgroundImage: "url('/mobile.png')" }}
+        />
 
-        {/* Optional Overlay */}
-        <div className="fixed inset-0 bg-black/75 backdrop-blur-[2px] z-[-1]" />
+        {/* OVERLAY */}
+        <div className="fixed inset-0 bg-black/60 backdrop-blur-[2px] z-[-1]" />
 
         {/* 页面内容层 */}
         <div className="relative z-[5]">

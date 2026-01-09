@@ -51,7 +51,7 @@ const Authorize = () => {
             />
             </div>
             <p className="mt-2 text-xs sm:text-sm text-[#ecf3ff] font-medium text-center">
-            Trusted Pokies Australia · 2025 Certification
+            Trusted Pokies Australia · 2026 Certification
             </p>
         </motion.div>
 

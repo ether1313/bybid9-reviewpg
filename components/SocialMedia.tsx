@@ -3,7 +3,7 @@
 const SocialMedia = () => {
   const socialLinks = [
     { name: 'TPA', href: 'https://t.me/tpaaustralia', icon: '/SocialMediaIcons/bybid9-tpa.png' },
-    { name: 'Facebook', href: 'https://www.facebook.com/IPay9.Entertainment?_rdc=1&_rdr#', icon: '/SocialMediaIcons/bybid9-fb.png' },
+    { name: 'Facebook', href: 'https://www.facebook.com/bybid9vip/', icon: '/SocialMediaIcons/bybid9-fb.png' },
     { name: 'Telegram', href: 'https://t.me/by9au', icon: '/SocialMediaIcons/bybid9-tlg.png' },
     { name: 'WhatsApp', href: 'https://chat.whatsapp.com/Fq20wXzNALo8nXDXhz0Tmp?mode=wwt', icon: '/SocialMediaIcons/bybid9-ws.png' },
   ];
